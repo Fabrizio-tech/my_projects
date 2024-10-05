@@ -25,3 +25,25 @@ It optimizes the path using sparse matrix calculations, ensuring the wire covers
 - images hard to see: change selection algorithm
 - memory intensive
 - relatively fast
+
+## Project 2:
+### Name:           
+**Logistic Game of Life**
+
+### Language:       
+**Python, PyTorch**
+
+### Description:    
+Implementation of Logistic Game of Life: Game of Life is discrete, the logistic version allows for continuous values, inspired from a paper. 
+Implemented also for High Life.
+
+### Current implementation:
+- Generate grid with random values of 0 and 1.
+- Define rules of game of life, with an additional lambda parameter.
+- Do the same for high life: study results.
+- Interesting results at different lambdas show phase transformation.
+  
+### Current progress: 
+- implemented with torch: managed to optimize the speed of the simulation significantly
+- computed several sims for to gain avg value
+- at a specific lambda: emergence of replicating patterns
