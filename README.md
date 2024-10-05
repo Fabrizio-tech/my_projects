@@ -43,7 +43,33 @@ Implemented also for High Life.
 - Do the same for high life: study results.
 - Interesting results at different lambdas show phase transformation.
   
-### Current progress: 
+### Current progress:
 - implemented with torch: managed to optimize the speed of the simulation significantly
 - computed several sims for to gain avg value
-- at a specific lambda: emergence of replicating patterns
+- at a specific lambda: the emergence of replicating patterns
+
+## Project 3:
+### Name:           
+**2D realistic clouds**
+
+### Language:       
+**Python**
+
+### Description:    
+designed algorithm to generate 2D realistic-looking clouds. The main purpose is to use them in a 2D video game. 
+
+
+### Current implementation:
+- Generate grid of val 0 and a cell of val 1
+- From the cell of val 1 generate another one in a random position, but not too far from prev one.
+- Continue until multiple a generated
+- Generate radii following a pawer law with lambda (1.2). As many points on the grid.
+- Apply radii on points: generate circles of value one, when to circles overlap sum values
+- Eliminate val 1 and 2
+- Normalize grid
+- Represent grid with: 0 in blue and 1 in white. The rest of the colors follow an S-shaped curve
+  
+### Current progress:
+- effects very realistic, at different lambda different cloud types appear
+- need to add shadows for more realistic effect
+
