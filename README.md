@@ -73,3 +73,23 @@ designed algorithm to generate 2D realistic-looking clouds. The main purpose is 
 - effects very realistic, at different lambda different cloud types appear
 - need to add shadows for more realistic effect
 
+## Project 4:
+### Name:           
+**Calories variation model**
+
+### Language:       
+**Python**
+
+### Description:    
+designed a model for weight variation based on simple principles:
+calories can go up and down, and so is the metabolism. When we eat too much the metabolism has no time to respond and so it doesn't consume most of the calories: becomes fat. 
+After a while, metabolism catches up and becomes higher, the body so develops inflammations and consumes the extra energy not only with stored fats.
+
+
+### Current implementation:
+- model based on differential equation implemented with Newton method
+### Current progress:
+- model does not work,
+- hard to simulate: maybe remove noise
+- I believe it can work
+
